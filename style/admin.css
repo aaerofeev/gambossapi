@@ -1,0 +1,41 @@
+.container.decorated {
+    background-color: #E7E7E7;
+    border: medium none;
+}
+
+nav {margin: 0 -15px;}
+footer {margin: 15px -15px 0 -15px;}
+
+.admin-holder {padding: 10px 0;}
+.admin-form {}
+
+.admin-toolbar {margin-bottom: 20px;background-color: #fff;padding: 10px;}
+.admin-toolbar.bottom {margin-bottom: 0;}
+.admin-toolbar .pagination {margin:0;}
+
+.game-item-admin {margin-bottom: 15px;background-color: #fff;}
+.game-item-admin .image {height: 150px;overflow-y: hidden;display: block;}
+.game-item-admin .image img {width: 100%;}
+.game-item-admin .caption {height: 85px;padding: 5px 10px;}
+.game-item-admin .caption .name {
+    color: #3A3A3A;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    overflow-y: hidden;
+}
+
+.game-editor {}
+.game-editor .multi-item {margin-bottom: 10px;}
+.game-editor .screen-item {margin-bottom: 10px;}
+.game-editor .form-label-block {display: block;}
+.game-editor .btn-group {margin-top: 20px;}
+.game-editor .catalog-root .block-catalog {margin-left: 15px;}
+.game-editor .catalog-root label {font-weight: normal;}
+.game-editor .catalog-root > label {margin-top: 10px;}
+.game-editor .catalog-root > label:first-child {margin-top: 0;}
+
+.game-collection {background-color: transparent;}
