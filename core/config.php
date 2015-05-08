@@ -16,17 +16,13 @@ if (APPLICATION_DEBUG) {
 
 $mysqlHost = '127.0.0.1';
 
-if (mb_strtolower(getenv('APPLICATION_ENV')) == 'development') {
-    $mysqlHost = '192.168.100.100';
-}
-
 date_default_timezone_set('Asia/Almaty');
 
 define ('GAMEBOSS_API', 74393);
 define ('ALAWAR_API', 40626);
 define ('DATABASE_DSN', "mysql:host={$mysqlHost};dbname=jezzy;charset=utf8");
-define ('DATABASE_USER', 'jezzy');
-define ('DATABASE_PASSWORD', 'Sm3TY3rh5KSGxcEK');
+define ('DATABASE_USER', '');
+define ('DATABASE_PASSWORD', '');
 
 // Requires
 require_once 'core/cache.php';
